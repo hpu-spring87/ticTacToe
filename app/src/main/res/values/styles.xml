@@ -12,6 +12,8 @@
         <item name="android:layout_width">100dp</item>
         <item name="android:layout_height">100dp</item>
         <item name="android:textSize">30sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">#f13f70</item>
     </style>
 
 </resources>
