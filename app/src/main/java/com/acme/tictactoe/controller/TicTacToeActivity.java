@@ -60,7 +60,7 @@ public class TicTacToeActivity extends AppCompatActivity {
         String tag = button.getTag().toString();
         int row = Integer.valueOf(tag.substring(0,1));
         int col = Integer.valueOf(tag.substring(1,2));
-        Log.i(TAG, "Click Row: [" + row + "," + col + "]");
+        Log.e(TAG, "Click Row: [" + row + "," + col + "]");
 
         Player playerThatMoved = model.mark(row, col);
 
